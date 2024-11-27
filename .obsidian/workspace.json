@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "27e012c74bd8a1e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c8868ec2b135dc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5f8c96f0b916584",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SimpleApp/pkm/remote debugging.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "remote debugging"
+            }
+          },
+          {
+            "id": "3b2df35132f85175",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SimpleApp/pkm/spring boot threads.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "spring boot threads"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a897600c7653a06d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1388289b895ffdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eea91fe297a2cd2e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e15944b6c55bbfa6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1da1978719a0739c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b4bc2bdd09f28d8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a6bc75af211e9b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "985c9c56920053ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SimpleApp/pkm/full-fledged remote debugging.excalidraw",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for full-fledged remote debugging"
+            }
+          },
+          {
+            "id": "a172f468fafc9753",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SimpleApp/pkm/full-fledged remote debugging.excalidraw",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from full-fledged remote debugging"
+            }
+          },
+          {
+            "id": "10c220c507703f49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fc3659fc285e8f23",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SimpleApp/pkm/full-fledged remote debugging.excalidraw"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of full-fledged remote debugging"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c5f8c96f0b916584",
+  "lastOpenFiles": [
+    "SimpleApp/pkm/spring boot threads.excalidraw",
+    "SimpleApp/pkm/remote debugging.excalidraw",
+    "SimpleApp/pkm/spring boot threads.excalidraw~",
+    "SimpleApp/pkm/remote debugging.excalidraw~",
+    "SimpleApp/BACKLOG.md",
+    "SimpleApp/HELP.md",
+    "README.md",
+    "SimpleApp/pkm/Nowy dokument tekstowy.txt",
+    "SimpleApp/pkm/threads.excalidraw",
+    "SimpleApp/pkm/threads.excalidraw.md",
+    "SimpleApp/pkm/full-fledged remote debugging.excalidraw~"
+  ]
+}
