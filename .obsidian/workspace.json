@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2c8868ec2b135dc7",
+        "id": "1f1c4ae4b8214b6e",
         "type": "tabs",
         "children": [
           {
-            "id": "c5f8c96f0b916584",
+            "id": "b21077f7c884349f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "SimpleApp/pkm/remote debugging.excalidraw"
+                "file": "SimpleApp/pkm/remote debugging.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "remote debugging"
+              "title": "remote debugging.excalidraw"
             }
           },
           {
-            "id": "3b2df35132f85175",
+            "id": "975a5d81cdfe4e9c",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "SimpleApp/pkm/spring boot threads.excalidraw"
+                "file": "SimpleApp/pkm/running app in Docker container.md"
               },
               "icon": "excalidraw-icon",
-              "title": "spring boot threads"
+              "title": "running app in Docker container"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 264.5
   },
   "right": {
     "id": "b4bc2bdd09f28d8c",
@@ -173,18 +174,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c5f8c96f0b916584",
+  "active": "eea91fe297a2cd2e",
   "lastOpenFiles": [
-    "SimpleApp/pkm/spring boot threads.excalidraw",
-    "SimpleApp/pkm/remote debugging.excalidraw",
-    "SimpleApp/pkm/spring boot threads.excalidraw~",
-    "SimpleApp/pkm/remote debugging.excalidraw~",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129220655_824.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129220501_807.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129220333_767.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129220305_495.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129220237_643.png",
+    "SimpleApp/pkm/remote debugging.excalidraw.md",
+    "SimpleApp/pkm/running app in Docker container.md",
+    "SimpleApp/pkm/spring boot threads.excalidraw.md",
+    "SimpleApp/Dockerfile~",
+    "SimpleApp/Dockerfile",
+    "SimpleApp/pkm/backup/spring boot threads.excalidraw",
+    "SimpleApp/pkm/backup/remote debugging.excalidraw",
+    "README.md",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129210432_018.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129210341_688.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129210432_028.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129210432_042.png",
+    "SimpleApp/pkm/!rsc/Pasted Image 20241129210432_053.png",
     "SimpleApp/BACKLOG.md",
     "SimpleApp/HELP.md",
-    "README.md",
-    "SimpleApp/pkm/Nowy dokument tekstowy.txt",
-    "SimpleApp/pkm/threads.excalidraw",
-    "SimpleApp/pkm/threads.excalidraw.md",
-    "SimpleApp/pkm/full-fledged remote debugging.excalidraw~"
+    "SimpleApp/pkm/remote debugging.excalidraw",
+    "SimpleApp/pkm/!rsc",
+    "SimpleApp/pkm/spring boot threads.excalidraw",
+    "SimpleApp/pkm/remote debugging.md",
+    "SimpleApp/pkm/spring boot threads.md",
+    "Pasted Image 20241129203541_464.png",
+    "SimpleApp/pkm/backup",
+    "SimpleApp/pkm/Nowy folder",
+    "SimpleApp/pkm/remote debugging.excalidraw~",
+    "SimpleApp/pkm/threads.excalidraw.md"
   ]
 }
