@@ -1,0 +1,19 @@
+FROM eclipse-temurin:21-alpine as builder
+
+WORKDIR /builder
+ARG JAR_FILE=target/SimpleApp.jar
+COPY ${JAR_FILE} SimpleApp.jar
+RUN java -Djarmode=tools -jar SimpleApp.jar extract --layers --destination extracted
+
+FROM eclipse-temurin:21-alpine as runner
+RUN addgroup demogroup; adduser  --ingroup demogroup --disabled-password demo
+USER demo
+
+LABEL authors="gatomek"
+WORKDIR /app
+
+COPY --from=builder /builder/extracted/application/ ./
+COPY --from=builder /builder/extracted/dependencies/ ./
+COPY --from=builder /builder/extracted/snapshot-dependencies/ ./
+COPY --from=builder /builder/extracted/spring-boot-loader/ ./
+ENTRYPOINT ["java", "-jar", "SimpleApp.jar"]
