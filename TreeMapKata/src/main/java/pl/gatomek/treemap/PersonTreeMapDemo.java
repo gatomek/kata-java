@@ -7,8 +7,9 @@ public class PersonTreeMapDemo {
     public static void main(String[] args) {
         System.out.println( "Person Tree Map Demo");
 
-        //TreeMap<Person, Integer> map = new TreeMap<>( Comparator.comparingInt( o -> o.age()));
-        TreeMap<Person, Integer> map = new TreeMap<>( Comparator.comparingInt( Person::age));
+        //Comparator<Person> comparator = Comparator.comparingInt( o -> o.age());
+        Comparator<Person> comparator = Comparator.comparingInt(Person::age);
+        TreeMap<Person, Integer> map = new TreeMap<>( comparator);
 
         map.put( new Person( "Peter", 21), 17);
         map.put( new Person( "Thomas", 13), 15);
