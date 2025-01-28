@@ -8,7 +8,7 @@ import java.util.UUID;
 @Component
 public class Consumer {
 
-    @JmsListener( destination = "uuid")
+    @JmsListener( destination = "uuid", containerFactory = "jmsTopicContainerFactory")
     public void consume( UUID uuid) {
         System.out.println( "Receiving: " + uuid);
     }

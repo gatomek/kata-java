@@ -20,7 +20,9 @@ public class ScheduledTransmitter {
     @Scheduled( fixedDelay = 1000)
     public void transmit() {
         try {
-            jmsTemplate.send("uuid",session -> session.createTextMessage(UUID.randomUUID().toString()));
+            UUID uuid = UUID.randomUUID();
+            System.out.println( "Producing: " + uuid);
+            jmsTemplate.send("uuid",session -> session.createTextMessage( uuid.toString()));
         }
         catch (JmsException ex) {
             System.out.println( ex.getMessage());
