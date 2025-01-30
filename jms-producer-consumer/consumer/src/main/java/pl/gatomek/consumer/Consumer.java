@@ -3,13 +3,13 @@ package pl.gatomek.consumer;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-import java.util.UUID;
+import pl.gatomek.lib.Message;
 
 @Component
 public class Consumer {
 
-    @JmsListener( destination = "uuid", containerFactory = "jmsTopicContainerFactory")
-    public void consume( UUID uuid) {
-        System.out.println( "Receiving: " + uuid);
+    @JmsListener( destination = "uuid", containerFactory = "listenerContainerFactory")
+    public void consume( Message msg) {
+        System.out.println( "Receiving: " + msg.getUuid());
     }
 }
