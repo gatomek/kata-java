@@ -27,5 +27,6 @@
         <module>stream</module>
         <module>stream-async</module>
         <module>TreeMapKata</module>
+        <module>FileSystemInteraction</module>
     </modules>
 </project>
