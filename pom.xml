@@ -24,6 +24,7 @@
         <module>minio</module>
         <module>print-writer</module>
         <module>SimpleApp</module>
+        <module>stream</module>
         <module>stream-async</module>
         <module>TreeMapKata</module>
     </modules>
